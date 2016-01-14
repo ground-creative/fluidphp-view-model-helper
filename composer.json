@@ -1,0 +1,16 @@
+ {
+	"name": "fluidphp/viewmodel-helper" ,	
+	"type": "library" ,
+	"description": "FluidPHP framework view model helper" ,
+	"keywords": [ "php framework" ] ,
+	"homepage": "http://phptoolcase.com" ,
+	"license": "GPL V2" ,
+	"authors": 
+	[
+		{
+			"name": "Carlo Pietrobattista" ,
+			"email": "carlo@salapc.com" ,
+			"role": "Developer"
+		}
+	]
+}
