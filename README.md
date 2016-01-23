@@ -24,6 +24,7 @@ Visit phptoolcase.com for complete guides and examples.
 
 		"require": 
 		{
+			"mnsami/composer-custom-directory-installer": "1.0.*",
 			"fluidphp/viewmodel-helper": "~1.0"
 		} ,
 		"extra": 
@@ -32,4 +33,11 @@ Visit phptoolcase.com for complete guides and examples.
 			{
 				"./vendor/fluidphp/helpers/ViewModel": ["fluidphp/viewmodel-helper"]
 			}
+		}
+		
+	- STAND-ALONE:
+		
+		"require": 
+		{
+			"fluidphp/viewmodel-helper": "~1.0"
 		}
