@@ -46,12 +46,12 @@
 			else if ( 0 === strpos( $method , 'has_' ) )
 			{
 				$field = substr( $method , 4 );
-				return ( property_exists( $this>_fields , $name ) ) ? true : false;
+				return ( property_exists( $this->_fields , $field ) ) ? true : false;
 			}
 			else if ( 0 === strpos( $method , 'is_set_' ) ) // same as "has_"
 			{
 				$field = substr( $method , 7 );
-				return ( property_exists( $this>_fields , $name ) ) ? true : false;
+				return ( property_exists( $this->_fields , $field ) ) ? true : false;
 			}
 			else if ( 0 === strpos( $method , 'is_empty_' ) )
 			{
