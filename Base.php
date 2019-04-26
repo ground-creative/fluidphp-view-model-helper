@@ -88,7 +88,7 @@
 			return call_user_func_array( array( $class , $method ), $args );
 		}
 		
-		public function toArray( ){ return $this->_fields; }
+		public function toArray( ){ return ( array ) $this->_fields; }
 		
 		public function toJson( ){ return json_encode( $this->_fields ); }
 	}
