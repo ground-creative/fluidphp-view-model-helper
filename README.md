@@ -25,7 +25,7 @@ Stand-alone:
 ```		
 "require": 
 {
-	"fluidphp/translator-helper": "*"
+	"fluidphp/viewmodel-helper": "*"
 }
 ```
 
