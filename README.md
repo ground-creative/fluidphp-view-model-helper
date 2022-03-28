@@ -1,22 +1,43 @@
- ##########################################################
+ # FluidPhp View Model Helper
 
-FluidPhp 1 open source project view model helper
+FluidPhp is a framework based on the PhpToolCase library, visit [phptoolcase.com](http://phptoolcase.com) for complete guides and examples.
 
-A powerfull framework based on the phptoolcase library.
+## Installation
 
-##########################################################
+Add the package to your composer.json file, to install the helper.
 
-FluidPhp is a framework based on the PhpToolCase library.
+With fluidphp framework:
+```
+"require": 
+{
+	"mnsami/composer-custom-directory-installer": "2.0.*" ,
+	"fluidphp/viewmodel-helper": "*"
+} ,
+"extra": 
+{
+	"installer-paths": 
+	{
+		"./vendor/fluidphp/helpers/ViewModel": ["fluidphp/viewmodel-helper"]
+	}
+}
+```
+Stand-alone:
+```		
+"require": 
+{
+	"fluidphp/translator-helper": "*"
+}
+```
 
-Visit phptoolcase.com for complete guides and examples.
+## Project Info
 
-== PROJECT INFO ===================================
+### Project Home
 
-== Project Home: http://phptoolcase.com
+http://phptoolcase.com
 
-== Requirements: php version 5.3+
+### Requirements
 
-== INSTALLATION WITH COMPOSER ========================
+php version 5.4+<br>
 	
 	Add the following to your composer.json file:
 	
